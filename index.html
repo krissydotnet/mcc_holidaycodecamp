@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Erica's Cupcakery</title>
+  
+  <!--  Styles  -->
+<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Pacifico" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <!-- Import jQuery -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-mortar-pestle"></i>Erica’s Cupcakery</h1>
+    <button id="message">#1 Bakery in PA!</button>
+  </header>
+  <main>
+    <section id="menu">
+      <div class="banner">
+      <div class="menu">
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="#creamcheese" >Frosted Creamcheese Cupcake $2.99</a></li>
+        <li><a href="#spice">Pumpkin Spice Cupcake $2.99</a></li>
+        <li><a href="#brulee">Caramel Brulee Cupcake $2.99</a></li>
+        
+      </ul>
+        </div>
+    </div>
+    </section>
+    <section id="details">
+      <h2>Menu Items</h2>
+      <div class="menu-items">
+      <div class="menu-item popup" id="creamcheese">
+        <img src="https://drive.google.com/uc?export=view&id=1uoH1X_pcjLDxgF8MHajQYZnZjL08UMze">
+        <p class="description">Frosted Creamcheese Cupcake</p>
+        <p class="cost">$2.99</p>
+        <span class="popuptext" id="creamcheese_popup">Best you've ever had.</span>
+      </div>
+      <div class="menu-item popup" id="spice">
+                <img src="https://drive.google.com/uc?export=view&id=1OO48GolmtdqT72EaI0-nbNVsgWDsugY2">
+        <p class="description">Pumpkin Spice Cupcake </p>
+        <p class="cost">$2.99</p>
+  <span class="popuptext" id="spice_popup">They're great!!!!</span>
+      </div>
+      <div class="menu-item popup" id="brulee">
+                <img src="https://drive.google.com/uc?export=view&id=1WXE-dkglsk6aE7DaPhnkdCNmhBLsajvi">
+        <p class="description">Caramel Brulee Cupcake</p>
+        <p class="cost">$2.99</p>
+        <span class="popuptext" id="brulee_popup">These are the best cupcakes</span>
+      </div>
+     
+      
+          
+ 
+        </div>
+
+    </section>
+    <section id="checkout">
+      <div class="checkout">
+<h1 class="title">Checkout</h1>
+<p class="price" data-price="2.99">$2.99 per Juice</p>
+<p class="description">Quantity:</p>
+<input type="text" class="quantity" value="1">
+
+	<p class="total">Total: <span id="total">$2.99</span></p>
+
+	<button class="btn">Submit Order</button>
+
+</div>
+    </section>
+  </main>
+  <footer>
+    <p><i class="fas fa-mortar-pestle"></i>Erica’s Cupcakery</p>
+    <p>#1 Bakery in PA!</p>
+    <p>DotNetMomma - All rights reserved &copy; 2018</p>
+  </footer>
+  <!--
+
+    Wow! What do you want to build?
+
+    You have so many possibilities right now... Looking for something to kick off?
+    How about a simple folio page to show off everything you're going to make!
+   
+  -->
+  
+  <!-- Scripts -->
+
+  <script src="scripts/index.js"></script>
+</body>
+</html>
